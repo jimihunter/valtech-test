@@ -4,6 +4,7 @@ module.exports = {
     'Recent Blogs Display' : function (client) {
       const  valtech = client.page.val();
       valtech.navigate()
+          .maximizeWindow()
          .launchHomePage()
          .scrollToElement()
          .getText('@recentBlogLocator', function(result){

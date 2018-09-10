@@ -21,6 +21,7 @@ const valtekCommands = {
        return this.waitForElementVisible('@recentBlogLocator', 100)
           .getLocationInView('@recentBlogLocator');
     }
+
  
 };
 
@@ -45,8 +46,14 @@ module.exports = {
         recentBlogLocator: {
             selector: ".bloglisting__item__heading--big [href]"
         },
-        menu: {
-            selector: ".header__navigation__menu .navigation__menu__item:"
+        aboutMenu: {
+            selector: ".header__navigation__menu .navigation__menu__item:nth-of-type(1) a"
+        },
+        workMenu: {
+            selector: ".header__navigation__menu .navigation__menu__item:nth-of-type(2) a"
+        },
+        servicesMenu: {
+            selector: ".header__navigation__menu .navigation__menu__item:nth-of-type(3) a"
         }
     }
 };
