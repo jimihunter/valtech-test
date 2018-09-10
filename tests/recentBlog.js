@@ -2,7 +2,7 @@
 module.exports = {
     '@tags':['demo'],
     'Recent Blogs Display' : function (client) {
-      const  valtech = client.page.val();
+      const  valtech = client.page.homePage();
       valtech.navigate()
           .maximizeWindow()
          .launchHomePage()
