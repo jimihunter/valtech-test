@@ -1,0 +1,20 @@
+{
+  "name": "valtech-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nightwatch.js",
+  "dependencies": {
+    "chai-nightwatch": "^0.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.7.0",
+    "nightwatch": "^0.9.21"
+  },
+  "scripts": {
+    "test": "node nightwatch -e chrome"
+  },
+  "author": "Yusuf Ogunjimi",
+  "license": "ISC"
+}
