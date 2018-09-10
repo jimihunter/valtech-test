@@ -6,3 +6,4 @@ valtech's challenge
 both command should return the node and npm version installed
 3. git clone project-github-url && cd into project root <dir>
 4. run the command "node nightwatch -e chrome"
+Note: This test was based on the assumption that the screen resolution is : 1920 * 1080

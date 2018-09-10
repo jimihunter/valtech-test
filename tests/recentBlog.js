@@ -2,9 +2,9 @@
 module.exports = {
     '@tags':['demo'],
     'Recent Blogs Display' : function (client) {
+      client.maximizeWindow();
       const  valtech = client.page.homePage();
       valtech.navigate()
-          .maximizeWindow()
          .launchHomePage()
          .scrollToElement()
          .getText('@recentBlogLocator', function(result){
